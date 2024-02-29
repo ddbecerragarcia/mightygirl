@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 
 body {
-    background-image: url(/img/asset1.png);
-    background-repeat: no-repeat;
+    background-color: brown;
 }
 
 h1 {
-    background-color: brown;
     text-align: center;
     margin-top: 100;
     font-family: "Gaegu", sans-serif;
@@ -17,7 +15,6 @@ h1 {
 }
 
 h2 {
-    background-color: brown;
     text-align: center;
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
@@ -28,4 +25,20 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+#clicktostart, h1 {
+    position: relative;
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+}
+
+#clicktostart:hover {
+
+    border: 2px solid white;
+    border-radius: 25px;
 }
