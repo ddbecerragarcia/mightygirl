@@ -28,17 +28,18 @@ a {
     text-decoration: none;
 }
 
-#clicktostart, h1 {
-    position: relative;
+.clicktostart {
+    margin: auto;
     text-align: center;
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 2rem;
+    font-size: 10px;
 }
 
-#clicktostart:hover {
+
+.clicktostart:hover {
     border: 2px solid white;
     border-radius: 25px;
 }
@@ -56,8 +57,8 @@ a {
     transform: scale(0.5);
 }
 
-#a p {
-    margin-top: -2%;
+.titles p {
+    margin-top: 1%;
     text-align: center;
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
@@ -66,12 +67,27 @@ a {
     font-size: 20px; 
 }
 
-#b p {
-    margin-top: -2%;
-    text-align: center;
-    font-family: "Gaegu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 20px; 
+.row::after {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column, img {
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+.column:hover {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+
+}
+
