@@ -7,9 +7,9 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 10rem;
@@ -18,7 +18,7 @@ h1 {
 h2 {
     text-align: center;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight: 25em;
     font-style: normal;
     color: white;
     font-size: 6rem; 
@@ -32,23 +32,23 @@ a {
     margin: auto;
     text-align: center;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
-    font-size: 10px;
+    font-size: 0.625em;
 }
 
 
 .clicktostart:hover {
-    border: 2px solid white;
-    border-radius: 25px;
+    border: 0.125em solid white;
+    border-radius: 1.5625em;
 }
 
 .help h1{
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight: 25em;
     font-style: normal;
     color: white;
     font-size: 5rem;
@@ -57,9 +57,9 @@ a {
 
 .help h2 {
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 3rem;
@@ -70,9 +70,9 @@ a {
 
 #words h1 {
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 3rem;
@@ -86,9 +86,9 @@ a {
 .win h1 {
     margin: auto;
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;   
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 8rem;
@@ -98,9 +98,9 @@ a {
 .win p {
     margin: auto;
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 2rem;
@@ -113,9 +113,9 @@ a {
 
 .titles h1 {
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 2rem;
@@ -124,10 +124,10 @@ a {
 .titles p {
     text-align: center;
     font-family: "Gaegu", sans-serif;
-    font-weight: 400;
+    font-weight:  25em;
     font-style: normal;
     color: white;
-    font-size: 20px; 
+    font-size: 1.25em; 
 }
 
 .row::after {
@@ -138,7 +138,7 @@ a {
 
 .column {
     flex: 1;
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .column, img {
@@ -149,15 +149,15 @@ a {
 
 .column:hover {
     background-color: white;
-    border: 2px solid white;
-    border-radius: 25px;
+    border: 0.125em solid white;
+    border-radius: 1.5625em;
 
 }
 
 .playagain h1 {
     margin: auto;
     text-align: center;
-    margin-top: 100;
+    margin-top: 6.25em;
     font-family: "Gaegu", sans-serif;   
     font-weight: 400;
     font-style: normal;
@@ -167,7 +167,7 @@ a {
 }
 
 .container {
-    height: 200px;
+    height: 12.5em;
     display: flex;
     justify-content: space-between;
 }
@@ -175,23 +175,23 @@ a {
 .row1 {
     width: 20%;
     margin: auto;
-    padding: 10px;
-    border: 2px solid white;
+    padding: 0.625em;
+    border: 0.125em solid white;
 }
 
 .row2 {
     width: 20%;
     margin: auto;
-    padding: 10px;
-    border: 2px solid white;
+    padding: 0.625em;
+    border: 0.125em solid white;
 }
 
 .row1 h1 {
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .row2 h1 {
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .row1:hover {
@@ -202,4 +202,9 @@ a {
 .row2:hover {
     background-color: red; 
     transform: scale(1.5);
+}
+
+
+@media screen and (max-width:600px) {
+
 }
