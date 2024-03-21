@@ -30,7 +30,7 @@ a {
 }
 
 .clicktostart {
-    margin: auto;
+    margin: 15em;
     text-align: center;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
@@ -41,8 +41,9 @@ a {
 
 
 .clicktostart:hover {
-    border: 0.125em solid white;
-    border-radius: 1.5625em;
+    background-color: blue; 
+    border-radius: 2em;
+    transform: scale(1.2);
 }
 
 .help h1{
@@ -68,8 +69,9 @@ a {
 }
 
 .help h2:hover {
-    background-color: red; 
-    transform: scale(1.5);
+    background-color: blue; 
+    border-radius: 2em;
+    transform: scale(1);
 }
 
 
@@ -88,9 +90,10 @@ a {
     margin-top: 1%;
 }
 
-#words h2:hover {
-    background-color: red; 
-    transform: scale(1.5);
+#intro h2:hover {
+    background-color: pink; 
+    border-radius: 2em;
+    transform: scale(1);
 }
 
 
@@ -118,14 +121,11 @@ a {
 }
 
 .win h1:hover {
-    background-color: red; 
-    transform: scale(1.5);
+    background-color: blue;
+    border-radius: 2em; 
+    transform: scale(1);
 }
 
-#intro img {
-    margin-top: -30%;
-    transform: scale(0.5);
-}
 
 .titles h1 {
     text-align: center;
@@ -172,7 +172,7 @@ a {
 }
 
 .playagain h1 {
-    margin: auto;
+    margin: 6rem;
     text-align: center;
     margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;   
@@ -180,7 +180,6 @@ a {
     font-style: normal;
     color: white;
     font-size: 5rem;
-    margin-top: 10%;
 }
 
 .container {
@@ -225,7 +224,39 @@ a {
 
 @media screen and (max-width:600px) {
 
-    .clicktostart {
-        font-size: 5% ;
+    .playagain h1 {
+        margin: 2em;
+        font-size: 3em;
+    }
+
+    .container {
+        height: 1em;
+    }
+    .row1 {
+        width: 6.25em;
+        margin: auto;
+        padding: 3em;
+        border: 0.125em solid white;
+    }
+    .row2 {
+        width: 6.25em;
+        margin: auto;
+        padding: 3em;
+        border: 0.125em solid white;
+    }
+
+    #intro h2 {
+        margin: 2em;
+        font-size: 3.5em;
+    }
+
+    .win h1 {
+        margin: 2em;
+        font-size: 3em;
+    }
+
+    .win p {
+        margin: 2em;
+        font-size: 2em;
     }
 }
