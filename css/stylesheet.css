@@ -3,11 +3,12 @@
 body {
     background-image: url(../img/asset1.png);
     background-repeat: repeat-y;
+    cursor: url(../img/mightygirl.svg), auto;
 }
 
 h1 {
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
     font-style: normal;
@@ -46,7 +47,7 @@ a {
 
 .help h1{
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625 em;
     font-family: "Gaegu", sans-serif;
     font-weight: 25em;
     font-style: normal;
@@ -57,7 +58,7 @@ a {
 
 .help h2 {
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
     font-style: normal;
@@ -66,11 +67,15 @@ a {
     margin-top: 5%;
 }
 
+.help h2:hover {
+    background-color: red; 
+    transform: scale(1.5);
+}
 
 
 #words h1 {
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
     font-style: normal;
@@ -83,10 +88,16 @@ a {
     margin-top: 1%;
 }
 
+#words h2:hover {
+    background-color: red; 
+    transform: scale(1.5);
+}
+
+
 .win h1 {
     margin: auto;
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;   
     font-weight:  25em;
     font-style: normal;
@@ -98,12 +109,17 @@ a {
 .win p {
     margin: auto;
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
     font-style: normal;
     color: white;
     font-size: 2rem;
+}
+
+.win h1:hover {
+    background-color: red; 
+    transform: scale(1.5);
 }
 
 #intro img {
@@ -113,7 +129,7 @@ a {
 
 .titles h1 {
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;
     font-weight:  25em;
     font-style: normal;
@@ -129,6 +145,7 @@ a {
     color: white;
     font-size: 1.25em; 
 }
+
 
 .row::after {
     display:flex;
@@ -157,7 +174,7 @@ a {
 .playagain h1 {
     margin: auto;
     text-align: center;
-    margin-top: 6.25em;
+    margin-top: 0.625em;
     font-family: "Gaegu", sans-serif;   
     font-weight: 25em;
     font-style: normal;
@@ -167,31 +184,31 @@ a {
 }
 
 .container {
-    height: 12.5em;
+    height: 6.25em;
     display: flex;
     justify-content: space-between;
 }
   
 .row1 {
-    width: 0.2em;
+    width: 6.25em;
     margin: auto;
-    padding: 0.625em;
+    padding: 6.25em;
     border: 0.125em solid white;
 }
 
 .row2 {
-    width: 0.2em;
+    width: 6.25em;
     margin: auto;
-    padding: 0.625em;
+    padding: 6.25em;
     border: 0.125em solid white;
 }
 
 .row1 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .row2 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .row1:hover {
@@ -205,6 +222,10 @@ a {
 }
 
 
+
 @media screen and (max-width:600px) {
 
+    .clicktostart {
+        font-size: 5% ;
+    }
 }
